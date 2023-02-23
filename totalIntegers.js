@@ -1,6 +1,6 @@
 function totalIntegers(arr) {
     let counter = 0
-    function countingNum(arr,counter) {
+    function countingNum(arr) {
         arr.forEach(element => {
             if (typeof element === 'object') {
                 return countingNum(element)
